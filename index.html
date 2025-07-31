@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <main>
+        <img src="img/bag.png" alt="sacola de compras">
+        <form>
+            <input id="input-item" type="text" placeholder="Digite o item que deseja adicionar">
+            <button id="botao-adicionar-item">Salvar item</button>
+        </form>
+
+        <div classs="container-lista">
+            
+            <ul id="lista-de-compras">
+
+                <h2>Lista de compras</h2>
+                <hr />
+
+                <p id = "mensagem-lista-vazia" style = "display: block">Sua lista está vazia.</p>
+            
+                
+            </ul>
+
+            <h2>Itens comprados</h2>
+
+            <hr />
+
+            <ul id = "lista-itens-comprados">
+
+            </ul>
+
+        </div>
+    </main>
+    <script src="scripts.js" type = "module" defer></script>
+</body>
+
+</html>
